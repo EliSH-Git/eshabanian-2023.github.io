@@ -1,0 +1,94 @@
+
+
+body {
+  padding: 0;
+  margin: 0;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+  background-color:rgb(250, 251, 236)
+ 
+}
+header {
+margin-top: 24px;
+margin-bottom: 24px;
+}
+.mitte {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+#teaser {
+  text-align: center;
+  width: 100%;
+  
+}
+#teaser img {
+  text-align: center;
+  width: 60%;
+  height: 50hv;
+  object-fit: cover;
+  }
+  @media screen and (min-width: 80px){
+      #teaser {
+      height: 600px;
+    }
+ }
+  footer ul, nav ul {
+    list-style: none;
+    margin: 0;
+    padding-top: 200px;
+    padding-bottom: 24px;
+  }
+  footer ul li a, nav ul li a {
+    font-weight: 600px;
+    padding: 16px;
+  }
+  section{
+   
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 10px;
+    padding-right: 16px;
+  }
+  a:link {
+    color: rgb(54, 38, 8);
+  }
+  
+  
+  a:visited {
+    color: green;
+  }
+  
+  
+  a:hover {
+    color: brown;
+  }
+  
+  
+  a:active {
+    color: rgb(236, 187, 124);
+  }
+
+  .Fash {
+    width: 800px;
+    height: auto;
+    background: #b6b486;
+    padding: 10px;
+    margin: 10px;
+}
+.Fash- {
+  width: 1000px;
+  height: auto;
+  background: #f6f38a;
+  padding: 10px;
+  margin: 10px;
+}
+img {
+  
+  width:100%;
+}
+
+
+a span {
+  background-color:rgb(207, 166, 92) ;
+  color: rgb(247, 245, 242);
+}
